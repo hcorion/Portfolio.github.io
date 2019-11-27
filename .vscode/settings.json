@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "_site": true,
+        ".bundle": true,
+        ".jekyll-cache": true,
+        "Gemfile.lock": true,
+        "vendor": true
+    }
+}
