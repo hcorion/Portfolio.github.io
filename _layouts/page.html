@@ -18,24 +18,25 @@
 
   </head>
   <body>
-    <div id="header">
-      <nav>
-        <li class="fork"><a href="https://www.linkedin.com/in/zionn/"><img src="/assets/images/linkedin.png" alt="LinkedIn Profile" height="42" width="42"></a></li>
-        <li class="fork"><a href="https://github.com/hcorion"><img src="/assets/images/github.png" alt="GitHub Profile" height="42" width="42"></a></li>
-      </nav>
-    </div><!-- end header -->
-    <div id="header2">
-      <nav>
-        <li class="linkheader"><a href="/">Home</a></li>
-        <li class="linkheader"><a href="/about">About</a></li>
-      </nav>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://www.linkedin.com/in/zionn/"><img src="/assets/images/linkedin.png" alt="LinkedIn Profile" height="42" width="42"></a></li>
+          <li class="fork"><a href="https://github.com/hcorion"><img src="/assets/images/github.png" alt="GitHub Profile" height="42" width="42"></a></li>
+        </nav>
+      </div><!-- end header -->
+      <div id="header2">
+        <nav>
+          <li class="linkheader"><a href="/">Home</a></li>
+          <li class="linkheader"><a href="/about">About</a></li>
+        </nav>
+      </div><!-- end header -->
 
     <div class="wrapper">
 
       <section>
         <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <h1>{{ page.title}}</h1>
+          <p>{{ page.description }}</p>
           <hr>
           <!--<span class="credits left">Website by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>-->

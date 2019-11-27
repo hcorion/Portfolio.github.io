@@ -13,6 +13,13 @@ body {
   background: linear-gradient(#2a2a29, #1c1c1c);
 }
 
+.responsive {
+  height: auto;
+  max-width: 200%;
+  width: 10%;
+  display: flex;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#e8e8e8;
   margin:0 0 10px;
@@ -34,7 +41,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
+  color: #928d84;
 }
 
 h4, h5, h6 {
@@ -226,6 +234,80 @@ dt {
     }
   }
 }
+#header2 {
+  z-index: 100;
+  left:0;
+  top:64px;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background: url(../images/nav-bg.gif) #353535;
+  border-bottom: 0px solid #434343;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+
+  nav {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    background: #00000000;
+    margin: 0px auto;
+    display: flex;
+    justify-content: left;
+
+    li {
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      padding-right: 3%;
+      line-height: 40px;
+      //text-shadow: 0px 0px 0px rgba(0,0,0,.2);
+      font-size: 20px;
+
+      a {
+        color: white;
+        border: 1px solid rgba(#ffffff, 0);
+        background: linear-gradient(rgba(#93bd20, 0), rgba(#659e10, 0));
+        //border-radius: 0px;
+       ///box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 3px rgba(0,0,0,.7);
+
+        background-color: rgba(#000000, 0);
+        opacity:1.0;
+        padding: 0px 0px;
+        padding-top: 6px;
+        //margin-top: -100px;
+        line-height:14px;
+        font-size:20px;
+        display:flex;
+        flex-direction: row;
+        text-align:center;
+
+        &:hover {
+          color: #858585;
+        }
+      }
+
+      &.fork {
+        float: left;
+        margin-left: 0px;
+      }
+
+      &.downloads {
+        float: right;
+        margin-left: 6px;
+      }
+
+      &.title {
+        float: right;
+        margin-right: 10px;
+        font-size: 11px;
+      }
+    }
+  }
+}
 
 section {
   max-width:650px;
@@ -274,7 +356,8 @@ section {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+// This screws up the linkedin and Github icon links
+/*@media print, screen and (max-width: 720px) {
 
   #title {
     .credits {
@@ -308,4 +391,4 @@ section {
   nav {
     display: none;
   }
-}
+}*/
