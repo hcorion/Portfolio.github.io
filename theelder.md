@@ -10,10 +10,12 @@ When creating the climbing system for The Elder I was faced with a unique proble
 
 With my system though, the player can place climbable points at any point, whether the player could reasonably fit at that spot or not. I'm pretty happy with the solution I've created for this game, and I've detailed how it works below.
 
+{::options parse_block_html="true" /}
 <video width="520" height="300" controls loop preload=metadata>
     <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm">
     Sorry, your browser doesn't support embedded videos.
 </video>
+{::options parse_block_html="false" /}
 
 ## Core System
 
@@ -43,7 +45,7 @@ Some cool content that never made it into the final game, was the ability to bou
 ## Mantling
 
 I decided to have mantling be a designer-placed feature rather than a runtime/build-time feature, due to the scope of the game, and the relative ease for me to implement the feature.
-It leveraged Unreal's Spline component to create a system that was simple and easy to use for our Level Designer. 
+It leveraged Unreal's Spline component to create a system that was simple and easy to use for our Level Designer.
 
 <video width="520" height="300" controls loop preload=metadata>
     <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/Ledges.webm" type="video/webm">
