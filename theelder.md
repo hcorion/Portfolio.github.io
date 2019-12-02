@@ -12,7 +12,7 @@ With my system though, the player can place climbable points at any point, wheth
 
 <script>
 foo
-</script><video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm"></video>
+</script>\<video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm"\>\</video\>
 
 
 <!--<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>-->
