@@ -10,10 +10,7 @@ When creating the climbing system for The Elder I was faced with a unique proble
 
 With my system though, the player can place climbable points at any point, whether the player could reasonably fit at that spot or not. I'm pretty happy with the solution I've created for this game, and I've detailed how it works below.
 
-<!----><video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm"></video><!---->
-
-
-<!--<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>-->
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>
 
 ## Core System
 
@@ -29,26 +26,19 @@ So the basics of the the system works like this:
 
 The climbing system also fully supports moving climbable points, which was seen briefly in the boss fight.
 
-<video width="520" height="300" controls loop preload=metadata>
-    <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/JumpingOnMovingClimbable.webm" type="video/webm">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/JumpingOnMovingClimbable.webm"></iframe>
 
 Some cool content that never made it into the final game, was the ability to bounce crystals off of mushrooms.
-<video width="520" height="300" controls loop preload=metadata>
-    <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/BouncyMushroomClimbable.webm" type="video/webm">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/BouncyMushroomClimbable.webm"></iframe>
 
 ## Mantling
 
 I decided to have mantling be a designer-placed feature rather than a runtime/build-time feature, due to the scope of the game, and the relative ease for me to implement the feature.
 It leveraged Unreal's Spline component to create a system that was simple and easy to use for our Level Designer.
 
-<video width="520" height="300" controls loop preload=metadata>
-    <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/Ledges.webm" type="video/webm">
-    Sorry, your browser doesn't support embedded videos.
-</video>
+
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/Ledges.webm"></iframe>
 
 # Final Boss - WIP
 
