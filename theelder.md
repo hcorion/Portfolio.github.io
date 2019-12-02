@@ -10,7 +10,9 @@ When creating the climbing system for The Elder I was faced with a unique proble
 
 With my system though, the player can place climbable points at any point, whether the player could reasonably fit at that spot or not. I'm pretty happy with the solution I've created for this game, and I've detailed how it works below.
 
-<![CDATA[<video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm"> </video>]]>
+<script>
+foo
+</script><video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm"></video>
 
 
 <!--<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>-->
