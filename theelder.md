@@ -12,9 +12,7 @@ With my system though, the player can place climbable points at any point, wheth
 
 {::options parse_block_html="true" /}
 <video width="520" height="300" controls loop preload=metadata src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm">
-{::options parse_block_html="false" /}
-    <source src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm" type="video/webm">
-</video>
+{::options parse_block_html="false" /}</video>
 
 ## Core System
 
