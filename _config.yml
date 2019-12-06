@@ -4,3 +4,5 @@ show_downloads: false
 google_analytics: UA-153501565-1
 theme: jekyll-theme-midnight
 markdown: kramdown
+kramdown:
+  parse_block_html: true

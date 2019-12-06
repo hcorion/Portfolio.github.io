@@ -3,7 +3,10 @@ layout: page
 title: The Elder
 description: The Elder is a 3rd-person Adventure Platformer made in Unreal Engine 4.22.
 ---
-
+# Table Of Contents
+{:.no_toc}
+* TOC
+{:toc}
 # Climbing System
 
 When creating the climbing system for The Elder I was faced with a unique problem. In regular climbing systems, the programmer can rely on the level designers to make sure that climbable points are evenly spaced and work properly within that specific environment.
@@ -22,7 +25,7 @@ So the basics of the the system works like this:
 4. Climbable objects that are farther to the left and right of our target vector are given less priority.
 5. The object with the highest score is then checked to see if the player can safely go there without intersecting with other collision.
 
-![Diagram of the Climbing System](/assets/images/theelder/ClimbingDiagram.png){:height="450px" }
+![Diagram of the Climbing System](/assets/images/theelder/ClimbingDiagram.png){:height="450px"}
 
 The climbing system also fully supports moving climbable points, which was seen briefly in the boss fight.
 
@@ -40,11 +43,32 @@ It leveraged Unreal's Spline component to create a system that was simple and ea
 
 <iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/Ledges.webm"></iframe>
 
-# Final Boss - WIP
+# Final Boss
 
 ## Description
 
+The final boss of this game was a fun challenge, and went through many design and programming iterations.
+
+![Overhead view of the boss](/assets/images/theelder/bossfight-birdseye.png){:width="500px"}
+
+The boss was done in a combination of C++ and Blueprints. Originally I intended to write boss all in C++, but I switched during development to relying heavily on blueprints.
+I found blueprints to be faster to prototype with, and I wanted to quickly iterate with the team's level designer to find a design we liked as fast as possible.
+
+Below is a sample of a part of the boss-fight blueprints, specifically, this is the character blueprint.
+
+![Overhead view of the boss](/assets/images/theelder/boss-blueprint.png){:width="500px"}
+
 ## IK/FK
+
+The procedural IK/FK took a while to figure out, and there are multiple components to it.
+
+Basically I started this out with wanting the boss to be able to attack the player wherever they were using a fist smash attack. I wanted to preserve as much of the animation as possible, and sort-of guide the fist towards it's target.
+
+![Level Design Smash system](/assets/images/theelder/boss-smash-ui.png){:width="500px"}
+
+To accomplish this I made a custom notify state that faded an alpha value in for the IK, easing in the target's IK position.
+
+![Level Design Smash system](/assets/images/theelder/boss-alpha-fade-anim-notify.png){:width="300px"}
 
 ## Stealth System
 
