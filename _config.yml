@@ -1,8 +1,21 @@
 title: Zion Nimchuk
+tagline: Zion Nimchuk's Technical Design portfolio website
 description: Technical Designer
+url: Zion.Nimchuk.ca
+twitter:
+  username: hcorion_
+social:
+  name: Zion Nimchuk
+  links:
+    - https://twitter.com/hcorion_
+    - https://www.linkedin.com/in/zionn
+    - https://github.com/hcorion
 show_downloads: false
 google_analytics: UA-153501565-1
 theme: jekyll-theme-midnight
 markdown: kramdown
 kramdown:
   parse_block_html: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
