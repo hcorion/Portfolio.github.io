@@ -58,7 +58,7 @@ Below is a sample of a part of the boss-fight blueprints, specifically, this is 
 
 ![Overhead view of the boss](/assets/images/theelder/boss-blueprint.png){:width="500px"}
 
-## IK/FK
+## Boss Smash IK
 
 The procedural IK/FK took a while to figure out, and there are multiple components to it.
 
@@ -66,12 +66,30 @@ Basically I started this out with wanting the boss to be able to attack the play
 
 ![Level Design Smash system](/assets/images/theelder/boss-smash-ui.png){:width="500px"}
 
-To accomplish this I made a custom notify state that faded an alpha value in for the IK, easing in the target's IK position.
+To accomplish this I made a custom notify state that faded an alpha value for the IK, easing in the target's IK position.
+
+This system allows animators to spend less time on making a bunch of blends, and instead focus their time on creating animations for specialized areas like characters or areas that are farther away.
 
 ![Level Design Smash system](/assets/images/theelder/boss-alpha-fade-anim-notify.png){:width="300px"}
 
+You can see the system in use below, this examples uses just one animation.
+
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/BossSmash.webm"></iframe>
+
 ## Stealth System
 
-# Checkpoint System - WIP
+The boss also features a mini-stealth cover system. This was added to add a time-based pressure to our mechanics.
+
+The system itself is simple but effective, it just increases the boss "visibility" intensity based on a designer tweakable variable. Once the player enters the zone, the intensity gets reset.
+
+![Image of Stealth box](/assets/images/theelder/boss-stealth-cover.png){:width="300px"}
+
+# Checkpoint System
+
+![Image of Checkpoint GUI](/assets/images/theelder/checkpoint.png){:width="300px"}
+
+The checkpoint system was a key part of development for our team. I knew a flexible and designer-friendly checkpoint system would speed up development. I built the system using a mix of Blueprints and C++ in Unreal's new Editor Utility Widget system.
 
 ## Core System
+
+The system was built for linear level design
