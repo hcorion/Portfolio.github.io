@@ -6,6 +6,8 @@ description: The Elder is a 3rd-person Adventure Platformer made in Unreal Engin
 
 The Elder was built over the course of 4 months during our Final Project at Vancouver Film School. We had a 6 person team consisting of: Environmental Artist, Character Artist, Project Manager, Level Designer, Programmer and myself doing Technical Design and Programming.
 
+My main roles for the project was doing the climbing system, boss fight and checkpoint system which I've highlighted below, but I also did level scripting, optimized and debugged Blueprints, wrote parts of the GDD and TDD and setup an Unreal Swarm for lighting builds.
+
 <iframe src="https://drive.google.com/file/d/1N4FqyxrlhUunFigGdJepXUQNgq5X6ZLQ/preview" width="640" height="350" allow="fullscreen"></iframe>
 
 <br>
@@ -22,7 +24,7 @@ When creating the climbing system for The Elder I was faced with a unique proble
 
 With my system though, the player can place climbable points at any point, whether the player could reasonably fit at that spot or not. I'm pretty happy with the solution I've created for this game, and I've detailed how it works below.
 
-<iframe width="520" height="100" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>
+<iframe width="520" height="300" src="https://cdn.jsdelivr.net/gh/hcorion/hcorion.github.io/assets/images/theelder/ClimbingMoving.webm"></iframe>
 
 ## Core System
 
