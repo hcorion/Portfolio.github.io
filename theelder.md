@@ -4,7 +4,7 @@ title: The Elder
 description: The Elder is a 3rd-person Adventure Platformer made in Unreal Engine 4.22.
 ---
 
-The Elder was built over the course of 4 months during our Final Project at Vancouver Film School. We had a 6 person team consisting of an environmental artist, character artist, Project Manager, Level Designer, Programmer and myself. The game's trailer is below.  
+The Elder was built over the course of 4 months during our Final Project at Vancouver Film School. We had a 6 person team consisting of: Environmental Artist, Character Artist, Project Manager, Level Designer, Programmer and myself doing Technical Design and Programming.
 
 <iframe src="https://drive.google.com/file/d/1N4FqyxrlhUunFigGdJepXUQNgq5X6ZLQ/preview" width="640" height="350" allow="fullscreen"></iframe>
 
