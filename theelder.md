@@ -8,7 +8,7 @@ The Elder was built over the course of 4 months during our Final Project at Vanc
 
 My main roles for the project was doing the climbing system, boss fight and checkpoint system which I've highlighted below, but I also did level scripting, optimized and debugged Blueprints, wrote parts of the GDD and TDD and setup an Unreal Swarm for lighting builds.
 
-<iframe src="https://drive.google.com/file/d/1N4FqyxrlhUunFigGdJepXUQNgq5X6ZLQ/preview" width="640" height="350" allow="fullscreen"></iframe>
+<iframe width="1182" height="665" src="https://www.youtube.com/embed/DszgAX7v6RE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 <br>
