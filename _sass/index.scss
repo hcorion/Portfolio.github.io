@@ -6,3 +6,22 @@ h2 {
     text-align: center;
     font-size: 40px;
 }
+.wrapper{
+    $scale-duration: 0.3s;
+    $before-opacity: 0.9;
+    img{
+        opacity: $before-opacity;
+        -webkit-opacity: $before-opacity;
+        -moz-opacity: $before-opacity;
+        transition: $scale-duration ease;
+        -webkit-transition: $scale-duration ease;
+        -moz-transition: $scale-duration ease;
+    }
+    
+    img:hover{
+        transform: scale(1.04);
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+    }
+}
