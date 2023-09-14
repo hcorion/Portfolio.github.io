@@ -6,9 +6,13 @@ description: The Elder is a 3rd-person Adventure Platformer made in Unreal Engin
 
 The Elder was built over the course of 4 months during our Final Project at Vancouver Film School. We had a 6 person team consisting of: Environmental Artist, Character Artist, Project Manager, Level Designer, Programmer and myself doing Technical Design and Programming.
 
-My main roles for the project was doing the climbing system, boss fight and checkpoint system which I've highlighted below, but I also did level scripting, optimized and debugged Blueprints, wrote parts of the GDD and TDD and setup an Unreal Swarm for lighting builds.
+My main roles for the project was doing the climbing system, boss fight and checkpoint system which I've highlighted below, but I also did level scripting, Menu and Options GUI, optimized and debugged Blueprints, wrote parts of the GDD and TDD and setup an Unreal Swarm for lighting builds.
 
-<iframe width="1182" height="665" src="https://www.youtube.com/embed/DszgAX7v6RE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can download and play the game here: [vfs.com/arcade/game/the-elder/](http://community.vfs.com/arcade/game/the-elder/)
+
+I have code-samples from this project available here: [github.com/hcorion/CodeSamples/ClimbingSystem](https://github.com/hcorion/CodeSamples/tree/master/ClimbingSystem)
+
+<iframe width="520" height="300" src="https://www.youtube.com/embed/DszgAX7v6RE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 <br>
