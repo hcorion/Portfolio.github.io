@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Minecraft Legends
-description: Minecraft Legends is a 3rd-person action strategy game built by Blackbird Interactive and published by Mojang Studios.
+description: Minecraft Legends is a 3rd-person action strategy game developed by Blackbird Interactive and Mojang Studios.
 ---
 
 I worked on Minecraft Legends as a Technical Designer, working on campaign and post-launch content. Here's a quick summary of some of my work:
