@@ -18,7 +18,7 @@ I have code-samples from this project available here: [github.com/hcorion/CodeSa
 <br>
 <br>
 
-# Table Of Contents
+# Table of Contents
 {:.no_toc}
 * TOC
 {:toc}
